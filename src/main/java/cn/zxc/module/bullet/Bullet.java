@@ -22,6 +22,6 @@ public abstract class Bullet {
 	 */
 	public boolean isDead;
 	public int type;
-	
+
 	public abstract void move(int derection,int x,int y,int speed);
 }
