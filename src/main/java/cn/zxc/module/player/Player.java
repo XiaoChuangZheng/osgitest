@@ -12,6 +12,7 @@ public class Player extends Plane{
 
 	@Override
 	public void fire(Bullet bullet) {
+		bullet.move(1, 2, 3, 4);
 	}
 
 }
