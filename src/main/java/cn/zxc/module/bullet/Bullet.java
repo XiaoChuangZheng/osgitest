@@ -21,7 +21,12 @@ public abstract class Bullet {
 	 * 生命状态
 	 */
 	public boolean isDead;
+
 	public int type;
 	public int Shape;
+	public int shape;
 	public abstract void move(int derection,int x,int y,int speed);
+
+		
+
 }
